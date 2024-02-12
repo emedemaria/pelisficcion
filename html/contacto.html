@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<title>GuruSeries</title>
+	<meta charset="utf8">
+	<a href="index.html"><div><img id="logo" src="../img/logo.png"></div></a>
+	<div> <img class="banner" src="../img/banner1.PNG"></div>		
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/indexTab.css">
+	<link rel="stylesheet" href="../css/indexMob.css">
+	<link rel="icon" type="image/x-icon" href=".../im/favicon.ico">
+<nav>	
+<input type="checkbox" id="menu">
+<label for="menu"> ☰ </label>
+<ul>
+	<a href="nseries.html"><li id="nseries">Nuevas Series</li></a>
+	<a href="ntemporadas.html"><li id="ntemporadas">Nuevas Temporadas</li></a>
+	<a href="trailers.html"><li id="trailers">Trailers</li></a>
+	<a href="contacto.html"><li id="contacto">Contacto</li></a>
+</ul>
+</nav>
+</head>
+
+<body>
+	<div class="contenedor">
+	<form action="contacto.php" method="post">
+	Introduce nombre
+	<input class="visible" id="nombre" type="text" name="nombre">
+	<br>
+	Introduce apellidos
+	<input class="visible" id="apellidos"type="text" name="apellidos">
+	<br>
+	Selecciona género
+	<select class="visible" id="genero" name="sexo">
+		<option value="seleccione">Seleccione</option>
+		<option value="Femenino">Femenino</option>
+		<option value="Masculino">Masculino</option>
+		<option value="Otros">Otros</option>
+	</select>
+	<br>
+	Introduce tu correo electrónico
+	<input class="visible" id="correo" type="text" name="email" >
+	<br>
+	Dínos tus series favoritas y las que menos te gustan
+	<br>
+	<input class="visible" id="series" type="text" name="aficiones">
+	<br>
+	<input class="visible" id="boton" type="submit" value="Enviar datos">
+	<br>
+	</form>    
+	</div>
+</body>
+
+
+</html>

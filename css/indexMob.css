@@ -1,0 +1,260 @@
+@media screen and (min-width:0px) and (max-width:500px)
+{
+
+	*{
+		padding: 0px;
+		margin: 0px;
+		font-family: Calibri;
+	}
+	
+	html{
+		background-color: #F5F5F5
+		}
+	
+	#logo{
+		width: 250px;
+		height: 120px;
+		position: absolute;
+		top: 10px;
+		left: 180px;
+		z-index:1;
+	}
+		
+	.banner{
+			display: none;
+	}
+
+	 ul{
+		display: none;
+	  }
+	  
+	input:checked  ~ ul{
+		display:block;
+	  }
+	
+	input {
+		display: none;
+	  }
+	  
+	label {
+		box-sizing: border-box;
+		display: inline-block;
+		border-radius: 5px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-weight: bold;
+		text-align: center;
+		user-select: none;
+	  }
+	  
+	label:hover{
+		background: #e6e5e5; 
+	  }
+	  
+	input:checked ~ label {
+		background: #e6e5e5; 
+	  }
+	  
+	ul{
+		margin-top:0;
+		padding: 0;
+		width: 180px;
+	}
+	li
+	{   
+		display: block;
+		background: #e6e5e5;
+		padding: 1px;
+		list-style: none;
+		color: #15B7B9;
+		font-size: 15px;
+		cursor:pointer;   
+		text-align: center;
+		border-radius: 3px;
+		z-index:2;
+	}
+   
+	li:hover
+	{	cursor:pointer;   
+		background-color: #F5F5F5;
+		color: #134050; 
+		font-weight: bold;
+
+	}
+	.visible{
+		display: block;
+	 }
+	.contenedor{
+		color: #134050; 
+		position: absolute;
+		font-size: 15px;
+		text-align: left;	
+		top: 120px;
+		left: 10px;
+		margin: 30px;
+	}
+	#series{
+		padding-left: 3px;
+		height: 200px;
+		width: 400px;
+		border: solid 1px #15B7B9;
+		text-align: justify;
+	}
+	#boton{
+		height: 30px;
+		width: 100px;
+		border: solid 1px #15B7B9;
+		border-radius: 5px;
+	}
+	#nombre, #apellidos, #genero, #correo{
+		padding-left: 3px;
+		height: 30px;
+		width: 400px;
+		border: solid 1px #15B7B9;
+	}
+	.caja1{
+		border-radius: 10px;
+		border: solid 1px #15B7B9;
+		width: 90%;
+		height: 400px;
+		background-color: #F5F5F5;
+	}
+	.caja2{
+		border-radius: 10px;
+		border: solid 1px #15B7B9;
+		width: 90%;
+		height: 400px;
+		background-color: #F5F5F5;
+	}
+	
+	.video1{
+		border-radius: 10px;
+		width: 90%;
+		height: 400px;
+	}
+	.video2{
+		border-radius: 10px;
+		width: 90%;
+		height: 400px;
+	}
+	
+	.caja1:hover{
+		cursor:pointer;   
+		display: none;
+	}
+	.caja2:hover{
+		cursor:pointer;   
+		display: none;
+	}
+	
+	.caja1{
+		position: absolute;
+		left: 20px;
+		z-index:2;
+	}
+	.caja2{
+		position: absolute;
+		left: 20px;
+		z-index:2;
+	}
+	
+	.video1{
+		position: absolute;
+		left: 20px;
+		z-index:1;
+	}
+	.video2{
+		position: absolute;
+		left: 20px;
+		z-index:1;
+	}
+	
+	#hbo,#hbo1,#netflix,#netflix1{
+		top: 145px;
+	}
+	
+	#disney,#disney1,#amazon,#amazon1{
+		top: 565px;
+	}
+	
+	#movistar,#movistar1,#appletv,#appletv1{
+		top: 985px;
+	}
+	#netflix,#netflix1{
+		top: 1405px;
+	}
+	
+	#amazon,#amazon1{
+		top: 1825px;
+	}
+	
+	#appletv,#appletv1{
+		top: 2245px;
+	}
+	#hbo2, #netflix2{
+		top: 2665px;
+	}
+	#disney2{
+		top: 3085px;
+	}
+	#movistar2{
+		top: 3505px;
+	}
+	#netflix2{
+		top: 3925px;
+	}
+	#amazon2{
+		top: 4345px;
+	}
+	#appletv2{
+		top: 4765px;
+	}
+	#hbo3{
+		top: 5185px;
+	}
+	#disney3{
+		top: 5605px;
+	}
+	#movistar3{
+		top: 6025px;
+	}
+	#netflix3{
+		top: 6445px;
+	}
+	#amazon3{
+		top: 6865px;
+	}
+	#appletv3{
+		top: 7285px;
+	}
+	p{
+		margin: 5px;
+		padding: 5px;
+		box-align: center;
+		color: #113a41;
+		text-align: justify;
+		font-family: Calibri;
+		font-size: 14px;
+	}
+	h1{
+		margin: 5px;
+		padding: 5px;
+		font-size: 25px;
+		text-align: center;
+		color: #15B7B9;
+		font-family: Calibri;
+	}
+	
+	img{
+		border-radius: 5px;
+	}
+	.img1{
+		width: 100%;
+		height: 100
+	}
+	a{
+		text-decoration: none;
+	}
+
+}
